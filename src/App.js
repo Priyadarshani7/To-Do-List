@@ -31,7 +31,7 @@ function App() {
          <div id="to-do-form">
           <div className='addTask'>
             <input onChange={handlechange} placeholder="Enter the Task"type="text"/>
-            <button onClick={addtask}>Ad</button>
+            <button onClick={addtask}>Add</button>
             {/* {newtask} */}
           </div>
 
