@@ -1,0 +1,88 @@
+body{
+  background-color: #FEFF86;
+}
+
+.App{
+background-color: white;
+min-height: 700px;
+width: 500px;
+margin:40px auto;
+border: #8F43EE solid 25px;
+box-shadow: 50px -16px #8F43EE ;
+}
+
+#to-do-form input{
+  background-color: #3EDBF0;
+  width: 300px;
+  height: 70px;
+  padding: 0 30px;
+  margin: 20px;
+  border: 2px solid whitesmoke;
+  border-radius: 30px;
+  font-size: 40px ;
+ text-align: center;
+ font-weight: bolder;
+}
+
+#to-do-form input::placeholder{
+color: #581845;
+}
+
+#to-do-form input:form{
+  outline: none;
+}
+#to-do-form button{
+height: 70px;
+width: 95px;
+border-radius: 20px;
+border: 5px solid #54B435;
+cursor: pointer;
+font-size: 39px;
+color: #581845;
+font-weight: bolder;
+background-color: #C9F4AA;
+justify-content: center;
+}
+ .list{
+  
+  text-align: center;
+  
+  font-weight: bolder;
+
+  /* color: azure;
+  width: 300px;
+  background-color: blue;
+  height: 50px;
+  margin: 20px auto;
+  border-radius:5px ; */
+ }
+
+#heading{
+  text-align: center;
+  font-size: 50px;
+}
+ #display{
+
+  display: flex;
+ justify-content: center;
+ gap: 17px;
+ 
+ }
+ #display button{
+  width: 60px;
+  height: 65px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 5px solid  #FF0303;
+  color: black;
+  background-color: #FCFFE7;
+ }
+ #display h1{
+  border: 5px solid #F3CCFF;
+  background-color: #F3CCFF ;
+  width: 300px;
+  
+ }
+
+ 
